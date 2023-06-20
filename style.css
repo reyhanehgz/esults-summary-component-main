@@ -36,7 +36,7 @@ main{
     }
 
 .resultpara{
-        color: var(--light-lavender);
+        color: hsl(241, 100%, 89%);
 
         
 
@@ -55,21 +55,21 @@ main{
 
 .score{
 
-    color: var(--white);
+    color: white;
     font-size: 50px;
     font-weight: 800;
     text-align: center;
 }
 .allscore{
-    color: var(--light-lavender);
+    color: hsl(241, 100%, 89%);
 }
 
 h2{
-    color: var(--white); 
+    color:white; 
 }
 
 .scoredesc{
-    color: var(--light-lavender);
+    color: hsl(241, 100%, 89%);
     font-size: 16px;
     font-weight: 400;
     width:222px ;
@@ -90,7 +90,7 @@ h2{
 
 }
 .summarypara{
-    color: var(--dark-gray-blue);
+    color: hsl(224, 30%, 27%);
     font-weight: 600;
     padding-right: 5rem;
     
