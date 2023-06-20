@@ -1,0 +1,234 @@
+ 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+html{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+   
+   
+}
+
+  
+main{
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        margin :0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.result{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+       height: 100%;
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       border-radius: 25px;
+    }
+
+.resultpara{
+        color: var(--light-lavender);
+
+        
+
+    }
+.circle{
+        background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       height:9rem ;
+       width:9rem ;
+       
+    }
+
+.score{
+
+    color: var(--white);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+.allscore{
+    color: var(--light-lavender);
+}
+
+h2{
+    color: var(--white); 
+}
+
+.scoredesc{
+    color: var(--light-lavender);
+    font-size: 16px;
+    font-weight: 400;
+    width:222px ;
+    text-align: center;
+
+}
+
+.summary{
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+
+}
+.summarypara{
+    color: var(--dark-gray-blue);
+    font-weight: 600;
+    padding-right: 5rem;
+    
+ 
+  
+
+    
+}
+ul{
+    font-size: 14px;
+    width: 90%;
+}
+li{
+    padding: .9rem;
+    margin:.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reaction{
+    background-color:  hsla(0, 100%, 67%, 0.146);
+
+}
+
+
+.memory{
+    background-color: 
+    hsl(39, 100%, 56% , 0.146)
+
+}
+.verbal{
+    background-color: hsl(166, 100%, 37%, 0.146)
+
+}
+.visual{
+    background-color: hsl(234, 85%, 45% , 0.146)
+
+}
+
+.recard{}
+.mecard{}
+.vecar{}
+.vicard{}
+
+.summary div{
+    display:flex ; 
+    align-items: center; 
+}
+
+
+.redtext{
+    color:hsl(0, 100%, 67%);
+    margin-left: 10px;
+}
+.orangetext{
+    color: hsl(39, 100%, 56%);
+    margin-left: 10px;
+}
+.greentext{
+    color: hsl(166, 100%, 37%);
+    margin-left: 10px;
+
+}
+.bluetext{
+    color: hsl(234, 85%, 45%);
+    margin-left: 10px;
+
+
+}
+button{
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    padding:  0.5rem 0;
+}
+
+@media only screen and (max-width: 480px){
+   main{
+     
+     flex-direction: column;
+    
+    
+    }
+    .result {
+       border-radius:0 0 25px 25px ;
+        height: 45vh;
+        padding: 2px;
+        width: 100%;
+        
+    }
+    .summary{
+        width: 100%;
+        height: 55vh;
+        background-color: white;
+        border-radius:0  ;
+       
+       
+    }
+    .summarypara{
+        padding-right: 16rem;
+    }
+    .resultpara{
+       
+        font-size:12px ;
+
+    }
+    .circle{
+        height:4rem ;
+        width:4rem ;
+
+    }
+    .score{
+        font-size: 28px;
+    }
+    .allscore{
+        font-size:9px ;
+    }
+    h2{
+        font-size: 12px;
+    }
+    .scoredesc{
+       
+        font-size: 9px;
+    }
+    ul{
+        font-size: 10px;
+    }
+    li{
+        padding: .4rem;
+        
+    }
+    button{padding:  0.3rem 0;}
+    .attribution {
+        font-size:7px;
+        text-align: center;
+        margin-top: 1rem; }
+   
+}
+
